@@ -15,7 +15,7 @@ class Bloque():
         return sha256(hash_bloque.encode()).hexdigest()
 
 
-class multi_media():
+class GuardandoBloque():
     dificultad = 2
 
     def __init__(self):
